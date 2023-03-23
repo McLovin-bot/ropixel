@@ -25,7 +25,7 @@ inventory:renderHB()
 <hr>
 
 # Methods
-## Inventory:`additem`(itemName:String, amount:number)
+## Inventory:`additem`
 ``` Lua
 inventory:addItem(Item Name, Amount)
 ```
@@ -37,9 +37,9 @@ inventory:addItem(Item Name, Amount)
 
 <hr>
 
-## Inventory:`removeItem`(temName:String, amount:number)
+## Inventory:`removeItem`
 ``` Lua
-inventory:renderHB()
+inventory:removeItem(ItemName, Amount)
 ```
 > Item Name = String
 
@@ -49,7 +49,7 @@ inventory:renderHB()
 
 <hr>
 
-## Inventory.`new`(player)
+## Inventory.`new`
 ``` Lua
 inventory.new(player)
 ```
