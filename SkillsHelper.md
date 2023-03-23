@@ -10,10 +10,10 @@ local skillsHelper = require(game:GetService("ServerScriptService"):WaitForChild
 -- We are pretty much storing the player object 
 local skills = skillsHelper.new(p)
 
--- Add xp (amount, skill name)
+-- Add xp (skill name, amount)
 -- Example adding 10 foraging xp
 
-skills:addXp(10, "Foraging")
+skills:addXp("Foraging", 10)
 
 -- Render Skills
 
@@ -28,7 +28,7 @@ skills:renderSkills()
 
 ## skills:`addXp`
 ``` Lua
-skills:addXp(Amount, Skill Name)
+skills:addXp(Skill Name, Amount)
 ```
 > Amount = number
 
@@ -62,8 +62,8 @@ skills.new(player)
 
 > Reason:
 
-> instead of having to do skills:addXp(player, amount, skill)
-> we can do skills:addXp(amount, skill)
+> instead of having to do skills:addXp(player, skill, amount)
+> we can do skills:addXp(skill, amount)
 
 > we don't have to pass the player object because we save it when we use the .new method
 
