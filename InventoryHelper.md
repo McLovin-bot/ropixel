@@ -9,6 +9,7 @@ local inventoryHelper = require(game:GetService("ServerScriptService"):WaitForCh
 
 -- Initilize the module
 -- p = player object (normally would get this from PlayerAdded Function)
+-- We are pretty much storing the player object 
 local inventory = inventoryHelper.new(p) 
 
 --Add a item (ItemName, Amount)
@@ -54,6 +55,8 @@ inventory:removeItem(ItemName, Amount)
 inventory.new(player)
 ```
 > takes a player object parameter
+
+> We are pretty much storing the player object 
 
 > this sets up the inventory var as a inventoryHelper object
 
