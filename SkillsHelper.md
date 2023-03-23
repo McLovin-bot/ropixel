@@ -19,9 +19,13 @@ skills:addXp(10, "Foraging")
 
 skills:renderSkills()
 ```
+
 <hr>
+
 #Methods
+
 <hr>
+
 ## skills:`addXp`
 ``` Lua
 skills:addXp(Amount, Skill Name)
@@ -31,7 +35,9 @@ skills:addXp(Amount, Skill Name)
 > Skill Name = String
 
 > This function takes two parameters Amount of xp and the name of the skill
+> 
 <hr>
+
 ## skills:`renderSkills`
 ``` Lua
 skills:renderSkills()
@@ -39,7 +45,9 @@ skills:renderSkills()
 > this function takes no parameters
 
 > used to update skills gui
+
 <hr>
+
 ## skills.`new`
 ``` Lua
 skills.new(player)
