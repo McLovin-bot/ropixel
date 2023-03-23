@@ -51,7 +51,7 @@ inventory:renderHB()
 
 ## Inventory.`new`(player)
 ``` Lua
-local inventory = inventory.new(player)
+inventory.new(player)
 ```
 > takes a player object parameter
 
