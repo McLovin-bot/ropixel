@@ -32,7 +32,9 @@ inventory:addItem(Item Name, Amount)
 > Item Name = String
 > Amount = number / integer
 > addItem takes two parameters the name of the item you want to add and quantity
+> 
 <hr>
+
 ## Inventory:`removeItem`(temName:String, amount:number)
 ``` Lua
 inventory:renderHB()
