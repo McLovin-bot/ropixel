@@ -22,3 +22,4 @@ inventory:removeItem('dark_oak_wood', 2)
 -- Render the items in the hotbar
 inventory:renderHB()
 ```
+<hr>
