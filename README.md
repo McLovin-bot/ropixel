@@ -30,7 +30,5 @@ inventory:renderHB()
 inventory:addItem(Item Name, Amount)
 ```
 > Item Name = String
-
-> Amount = number / integer
-
-> addItem takes two parameters the name of the item you want to add and quantity
+ Amount = number / integer
+ addItem takes two parameters the name of the item you want to add and quantity
