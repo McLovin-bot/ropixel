@@ -7,7 +7,7 @@
 local skillsHelper = require(game:GetService("ServerScriptService"):WaitForChild("SkillsHelper"))
 
 -- Initilize the module
-
+-- We are pretty much storing the player object 
 local skills = skillsHelper.new(p)
 
 -- Add xp (amount, skill name)
@@ -55,6 +55,8 @@ skills.new(player)
 > function takes one parameter of a player object
 
 > player = player object
+
+> We are pretty much storing the player object 
 
 > this sets up the skills var as a skillsHelper object
 
