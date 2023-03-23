@@ -23,3 +23,14 @@ inventory:removeItem('dark_oak_wood', 2)
 inventory:renderHB()
 ```
 <hr>
+
+# Methods
+## Inventory:`additem`(itemName:String, amount:number)
+``` Lua
+inventory:addItem(Item Name, Amount)
+```
+> Item Name = String
+
+> Amount = number / integer
+
+> addItem takes two parameters the name of the item you want to add and quantity
