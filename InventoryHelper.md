@@ -63,6 +63,7 @@ inventory.new(player)
 > Reason:
 
 > instead of having to do inventory:addItem(player, item, amount)
+> we can do inventory:addItem(item, amount)
 
 > we don't have to pass the player object because we save it when we use the .new method
  
