@@ -22,7 +22,7 @@ skills:renderSkills()
 
 <hr>
 
-#Methods
+# Methods
 
 <hr>
 
