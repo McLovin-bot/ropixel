@@ -62,7 +62,8 @@ skills.new(player)
 
 > Reason:
 
-> instead of having to do inventory:addXp(player, amount, skill)
+> instead of having to do skills:addXp(player, amount, skill)
+> we can do skills:addXp(amount, skill)
 
 > we don't have to pass the player object because we save it when we use the .new method
 
