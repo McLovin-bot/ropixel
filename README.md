@@ -30,8 +30,10 @@ inventory:renderHB()
 inventory:addItem(Item Name, Amount)
 ```
 > Item Name = String
-Amount = number / integer
-addItem takes two parameters the name of the item you want to add and quantity
+ 
+> Amount = number / integer
+
+> addItem takes two parameters the name of the item you want to add and quantity
 
 <hr>
 
@@ -40,8 +42,10 @@ addItem takes two parameters the name of the item you want to add and quantity
 inventory:renderHB()
 ```
 > Item Name = String
-Amount = number / integer
-removeItem takes two parameters the name of the item you want to remove and quantity
+
+> Amount = number / integer
+
+> removeItem takes two parameters the name of the item you want to remove and quantity
 
 <hr>
 
@@ -50,8 +54,12 @@ removeItem takes two parameters the name of the item you want to remove and quan
 local inventory = inventory.new(player)
 ```
 > takes a player object parameter
-this sets up the inventory var as a inventoryHelper object
-Reason:
-instead of having to do inventory:addItem(player, item, amount)
-we don't have to pass the player object because we save it when we use the .new method
+
+> this sets up the inventory var as a inventoryHelper object
+
+> Reason:
+
+> instead of having to do inventory:addItem(player, item, amount)
+
+> we don't have to pass the player object because we save it when we use the .new method
  
